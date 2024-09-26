@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>querySelectorAll 예제</title>
+</head>
+<body>
+    <div class="item">아이템 1</div>
+    <div class="item">아이템 2</div>
+    <div class="item">아이템 3</div>
+    <div class="item">아이템 4</div>
+
+    <div id="output"></div>
+
+    <script>
+        // querySelectorAll로 요소 선택
+        const items = document.querySelectorAll('.item');
+
+        // for...of로 출력
+        const outputDiv = document.getElementById('output');
+        for (const item of items) {
+            outputDiv.innerHTML += item.textContent + '<br>';
+        }
+
+        // for...in으로 출력 (비추천)
+        // 주의: 일반적으로 for...in은 객체의 프로퍼티를 반복하는 데 사용됩니다.
+        /*
+        for (const index in items) {
+            if (items.hasOwnProperty(index)) {
+                outputDiv.innerHTML += items[index].textContent + '<br>';
+            }
+        }
+        */
+    </script>
+</body>
+</html>
