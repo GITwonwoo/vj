@@ -14,6 +14,13 @@ for(x of family.faimilysite){
 
 this.document.querySelector("#family ul").innerHTML =  familylist
 
+//패밀리노출
+this.document.querySelector("#family").addEventListener('click',function(){
+  this.classList.toggle('open');
+})
+
+
+
 })
 
 //함수제작
