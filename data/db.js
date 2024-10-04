@@ -24,3 +24,60 @@ const family = {
   ],
 }
 
+const mynavi = [
+  {
+    title: "엄청긴메뉴너비를 안준 이유",
+    link: "#",
+    subMenu: [
+      { title: "소메뉴", link: "#" },
+      { title: "소메뉴", link: "#" },
+      { title: "소메뉴", link: "#" },
+      { title: "소메뉴", link: "#" },
+      { title: "소메뉴", link: "#" }
+    ]
+  },
+  {
+    title: "대메뉴",
+    link: "#",
+    subMenu: [
+      { title: "찾아오시는 길처럼 긴소메뉴", link: "#" },
+      { title: "소메뉴", link: "#" },
+      { title: "소메뉴", link: "#" },
+      { title: "소메뉴", link: "#" },
+      { title: "소메뉴", link: "#" }
+    ]
+  },
+  {
+    title: "대메뉴",
+    link: "#",
+    subMenu: [
+      { title: "소메뉴", link: "#" },
+      { title: "소메뉴", link: "#" },
+      { title: "소메뉴", link: "#" },
+      { title: "소메뉴", link: "#" },
+      { title: "소메뉴", link: "#" }
+    ]
+  },
+  {
+    title: "대메뉴",
+    link: "#",
+    subMenu: [
+      { title: "소메뉴", link: "#" },
+      { title: "소메뉴", link: "#" },
+      { title: "소메뉴", link: "#" },
+      { title: "소메뉴", link: "#" },
+      { title: "소메뉴", link: "#" }
+    ]
+  },
+  {
+    title: "대메뉴",
+    link: "#",
+    subMenu: [
+      { title: "소메뉴", link: "#" },
+      { title: "소메뉴", link: "#" },
+      { title: "소메뉴", link: "#" },
+      { title: "소메뉴", link: "#" },
+      { title: "소메뉴", link: "#" }
+    ]
+  }
+];

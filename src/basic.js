@@ -20,6 +20,19 @@ this.document.querySelector("#family").addEventListener('click',function(){
 })
 
 
+const allMenubtn = this.document.querySelector("#hd_allmenu_bby")
+
+allMenubtn.addEventListener('click',function(){
+  document.body.classList.toggle('menuOpen')
+})
+
+
+//여기서
+for(x in mynavi){
+  this.document.querySelectorAll("#navi>ul>li>a")[x].innerHTML =  mynavi[x].title;
+}
+
+
 
 })
 
